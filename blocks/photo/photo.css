@@ -1,0 +1,17 @@
+.photo {
+  width: 100%;
+  padding: 92px 48px 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1023px) {
+  .photo {
+    padding: 88px 24px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .photo {
+    padding: 64px 16px 0;
+  }
+}
